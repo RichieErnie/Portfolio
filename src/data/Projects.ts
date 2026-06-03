@@ -37,7 +37,7 @@ export const PROJECTS: Project[] = [
       "E-commerce storefront migrated from vanilla HTML/CSS/JS to a fully modern React application. Features product listing, cart management, and a clean, responsive checkout flow.",
     tags: ["React", "CSS", "React Context"],
     liveUrl: "https://shopmia.vercel.app",
-    imageUrl: "./images/Shopmia.png",
+    imageUrl: "/images/shopmia.png",
     githubUrl: "https://github.com/RichieErnie/Shopmia",
 
     isLive: true,
@@ -49,7 +49,7 @@ export const PROJECTS: Project[] = [
       "Personal finance tracker with expense categories, visual charts, and full localStorage persistence. Built with React Context for global state management and Recharts for data visualisation.",
     tags: ["React", "TypeScript", "useContext", "Recharts", "localStorage"],
     liveUrl: "https://expense-tracker-phi-inky.vercel.app/",
-    imageUrl: "./images/expense-tracker.png",
+    imageUrl: "/images/expense-tracker.png",
     githubUrl: "https://github.com/RichieErnie/expense-tracker",
     isLive: true,
     isFeatured: true,
@@ -59,7 +59,7 @@ export const PROJECTS: Project[] = [
     description:
       "IoT final year project — a computerised recycling system that uses ESP32 and HC-SR04 ultrasonic sensors to monitor bin fill levels in real time, with a React Native mobile dashboard powered by Firebase.",
     tags: ["ESP32", "React Native", "Firebase", "Arduino IDE", "IoT"],
-    imageUrl: "./images/smart-bin.jpg",
+    imageUrl: "/images/smart-bin.jpg",
 
     isLive: false,
   },

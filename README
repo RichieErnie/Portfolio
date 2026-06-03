@@ -2,7 +2,7 @@
 
 A clean, fast, and professional developer portfolio built with React, TypeScript, and Tailwind CSS.
 
-🔗 **Live site:** [richardogazi.vercel.app](https://richardogazi.vercel.app)
+🔗 **Live site:** [richardogazi.vercel.app](https://richiernieportfolio-hk1ve2uun-richieernies-projects.vercel.app/)
 
 ---
 
@@ -30,7 +30,7 @@ A clean, fast, and professional developer portfolio built with React, TypeScript
 ## Run Locally
 
 ```bash
-git clone https://github.com/RichieErnie/richard-portfolio
+git clone https://github.com/RichieErnie/Portfolio
 cd richard-portfolio
 npm install
 npm run dev
