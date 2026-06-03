@@ -1,0 +1,49 @@
+# Richard Ogazi — Portfolio Website
+
+A clean, fast, and professional developer portfolio built with React, TypeScript, and Tailwind CSS.
+
+🔗 **Live site:** [richardogazi.vercel.app](https://richardogazi.vercel.app)
+
+---
+
+## Tech Stack
+
+- **React 18** — component-based UI
+- **TypeScript** — type-safe JavaScript
+- **Tailwind CSS** — utility-first styling
+- **Vite** — fast build tool and dev server
+- **Lucide React** — icon library
+
+---
+
+## Sections
+
+- Hero — introduction and code card
+- About — background and stats
+- Skills — frontend and tools
+- Projects — CineRich, Shopmia, Expense Tracker, Smart Waste System
+- Experience — my journey
+- Contact — links and email
+
+---
+
+## Run Locally
+
+```bash
+git clone https://github.com/RichieErnie/richard-portfolio
+cd richard-portfolio
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173)
+
+---
+
+## Deployment
+
+Deployed on **Vercel**. Every push to `main` triggers an automatic redeploy.
+
+---
+
+Built by Richard Ogazi · [LinkedIn](https://linkedin.com/in/richardogazi) · [GitHub](https://github.com/RichieErnie)
