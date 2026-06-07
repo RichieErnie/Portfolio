@@ -20,6 +20,13 @@ export default function Navbar() {
     let ticking = false;
 
     const updateActiveByPosition = () => {
+      const heroThreshold = window.innerHeight - 100;
+      if (window.scrollY < heroThreshold) {
+        setActiveSection("");
+        ticking = false;
+        return;
+      }
+
       let bestId = "";
       let bestDistance = Infinity;
       const offset = 80;
@@ -47,7 +54,6 @@ export default function Navbar() {
     };
 
     window.addEventListener("scroll", onScroll, { passive: true });
-    // run once to initialize state
     updateActiveByPosition();
 
     return () => window.removeEventListener("scroll", onScroll);
@@ -57,6 +63,12 @@ export default function Navbar() {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
+        const heroThreshold = window.innerHeight - 100;
+        if (window.scrollY < heroThreshold) {
+          setActiveSection("");
+          return;
+        }
+
         const visible = entries.filter((e) => e.isIntersecting);
         if (visible.length > 0) {
           visible.sort((a, b) => b.intersectionRatio - a.intersectionRatio);
@@ -76,7 +88,6 @@ export default function Navbar() {
   }, []);
 
   // ── Smooth scroll handler ──
-
   const handleNavClick = (href: string) => {
     const sectionId = href.slice(1);
     const el = document.getElementById(sectionId);
