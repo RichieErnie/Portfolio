@@ -55,6 +55,24 @@ export const PROJECTS: Project[] = [
     isFeatured: true,
   },
   {
+    title: "AjoVault",
+    description:
+      "A digital Ajo/Esusu group savings manager built to solve a real Nigerian problem. Features round tracking, per-member payment marking, payout history with filters, and live group preview with form validation.",
+    tags: [
+      "React",
+      "TypeScript",
+      "Zustand",
+      "React Hook Form",
+      "Zod",
+      "Tailwind CSS",
+    ],
+    liveUrl: "https://ajo-vault.vercel.app",
+    imageUrl: "https://raw.githubusercontent.com/RichieErnie/AjoVault/main/screenshot/Dashboard.png",
+    githubUrl: "https://github.com/RichieErnie/ajovault",
+    isLive: true,
+    isFeatured: true,
+  },
+  {
     title: "Smart Waste Collection System",
     description:
       "IoT final year project — a computerised recycling system that uses ESP32 and HC-SR04 ultrasonic sensors to monitor bin fill levels in real time, with a React Native mobile dashboard powered by Firebase.",
